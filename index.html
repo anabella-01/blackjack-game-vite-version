@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blackjack - Vite</title>
+</head>
+
+<body>
+
+  <main>
+    <h1 class="title">Blackjack</h1>
+
+    <div class="btn-container">
+      <button class="btn btn-1" id="btnNuevo">Nuevo juego</button>
+      <button class="btn btn-2" id="btnPedir" disabled="disabled">Pedir carta</button>
+      <button class="btn btn-3" id="btnDetener" disabled="disabled">Detener</button>
+    </div>
+
+    <div>
+      <div class="jugador-container">
+        <h2>Jugador 1 - <small>0</small></h2>
+        <div id="jugador-cartas" class="divCartas">
+          <!-- <img class="carta" src="/assets/cards/10C.png" alt=""> -->
+        </div>
+      </div>
+
+    </div>
+
+    <div>
+      <div class="computadora-container">
+        <h2>Computadora - <small>0</small></h2>
+        <div id="computadora-cartas" class="divCartas">
+          <!--   <img class="carta" src="/assets/cards/10C.png" alt=""> -->
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <div id="app"></div>
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
