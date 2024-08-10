@@ -11,10 +11,11 @@ https://github.com/user-attachments/assets/533787fc-9ce3-47fe-b71f-b41494651b99
 
 Steps to run the project:
 
-Clone the repository
-Run npm install to rebuild the node modules
-Start the dev server -> npm run dev
+• Clone the repository
+• Run npm install to rebuild the node modules
+• Start the dev server -> npm run dev
+
 Production:
 
-Run -> npm run build
-Take the dist folder and deploy it.
+• Run -> npm run build
+• Take the dist folder and deploy it.
