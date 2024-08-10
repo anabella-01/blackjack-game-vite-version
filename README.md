@@ -1,16 +1,20 @@
-¡Hola! Esta es la versión de Blackjack game utilizando Vite y Vanilla Javascript puro.
-Aplicamos el concepto de clean code, utilizando módulos y refactorización del código creado anteriormente.
-Algo que me gustó mucho fue utilizar JSDocs (Ya incorporado en VSC) donde trabajamos con los tipos de los argumentos a las funciones.
-Si bien lo trabaje en Typescript y me parece fascinante ya que reduce mucho los errores, pude aplicar lo mismo con Vanilla Javascript.
-Una vez mas mi objetivo al realizar este proyecto es asentar y comprender las bases y fundamentos de Javascript. 
-Saludos!
+Hello! This is the Blackjack game version using Vite and Vanilla JavaScript. 
+We applied the concept of clean code by using modules and refactoring previously created code. 
+One thing I really enjoyed was using JSDocs (already integrated in VS Code), where we worked with function argument types. 
+Although I’ve worked with TypeScript and find it fascinating since it greatly reduces errors, I was able to apply the same principles with Vanilla JavaScript. 
+Once again, my goal with this project is to solidify and understand the fundamentals of JavaScript.
 
-Pasos para ejecutar proyecto:
 
-Clonar repositorio
-Ejecutar npm install para reconstruir los módulos de node
-Correr el devServer -> npm run dev
 
-Producción
-Ejecutar -> npm run build
-Tomar la carpeta dist y desplegarla
+https://github.com/user-attachments/assets/533787fc-9ce3-47fe-b71f-b41494651b99
+
+
+Steps to run the project:
+
+Clone the repository
+Run npm install to rebuild the node modules
+Start the dev server -> npm run dev
+Production:
+
+Run -> npm run build
+Take the dist folder and deploy it.
